@@ -1,0 +1,47 @@
+.income-statement{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+}
+.rev-exp{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    background: aqua;
+}
+.net-inc{
+    background: rgb(189, 230, 216);
+    height: 50px;
+    font-size: 2rem;
+}
+.owner-equity-statement{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.OE-entries{
+    display: flex;
+    flex-direction: column;
+}
+.OE-entries:last-child{
+    border: 1px solid black;
+    background: aqua;
+}
+.balance-sheet{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+
+}
+.balance-sheet div{
+    border: 1px solid black;
+}
+
+.asset-col h2,.liab-oe-col h2{
+    background: lightblue;
+    padding: 1rem;
+}

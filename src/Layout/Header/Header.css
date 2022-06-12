@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+
+}
+ul li{
+  font-size: 1.7rem;
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.general-entry-container{
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 90%;
+  padding: 1rem;
+  margin:  0 auto;
+}
+
+.entry{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  text-align: center;
+  align-items: center;
+  background-color: aqua;
+}
